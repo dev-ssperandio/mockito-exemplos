@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fa4e5ef-6d71-4b73-9887-7af6f7fee36e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/dio/mockito/exemplos/ServicoEnvioEmailTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/mockito/exemplos/GeradorDeNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/dio/mockito/exemplos/GeradorDeNumerosTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/dio/mockito/exemplos/CadastrarPessoaTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/dio/mockito/exemplos/CadastrarPessoaTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/dio/mockito/exemplos/ContaTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/dio/mockito/exemplos/ContaTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +37,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CadastrarPessoaTeste.lancarExeptionQuandoChamarApiDosCorreios.executor": "Run",
     "JUnit.CadastrarPessoaTeste.validarDadosDeCadastro.executor": "Debug",
+    "JUnit.ContaTeste.retornaTrueParaQualquerValorNaValidacaoDeSaldo.executor": "Run",
     "JUnit.ContaTeste.validarOrdemDeChamada.executor": "Run",
     "JUnit.ContaTeste.validarQuantidadeDeChamadas.executor": "Run",
     "JUnit.EnviarMensagemTest.verificarComportamentoDaClasse.executor": "Run",
+    "JUnit.GeradorDeNumerosTeste.testaGeracaoComTamanhoDefinido.executor": "Run",
     "JUnit.ListaTeste.adicionarItemNaLista.executor": "Run",
     "JUnit.ServicoEnvioEmailTeste.validarDadosEnviadosParaAPlataforma.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -53,8 +59,8 @@
       <recent name="me.dio.mockito.exemplos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServicoEnvioEmailTeste.validarDadosEnviadosParaAPlataforma">
-    <configuration name="CadastrarPessoaTeste.validarDadosDeCadastro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GeradorDeNumerosTeste.testaGeracaoComTamanhoDefinido">
+    <configuration name="CadastrarPessoaTeste.lancarExeptionQuandoChamarApiDosCorreios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockito-exemplos" />
       <extension name="coverage">
         <pattern>
@@ -64,13 +70,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="me.dio.mockito.exemplos" />
       <option name="MAIN_CLASS_NAME" value="me.dio.mockito.exemplos.CadastrarPessoaTeste" />
-      <option name="METHOD_NAME" value="validarDadosDeCadastro" />
+      <option name="METHOD_NAME" value="lancarExeptionQuandoChamarApiDosCorreios" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContaTeste.validarOrdemDeChamada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContaTeste.retornaTrueParaQualquerValorNaValidacaoDeSaldo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockito-exemplos" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +86,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="me.dio.mockito.exemplos" />
       <option name="MAIN_CLASS_NAME" value="me.dio.mockito.exemplos.ContaTeste" />
-      <option name="METHOD_NAME" value="validarOrdemDeChamada" />
+      <option name="METHOD_NAME" value="retornaTrueParaQualquerValorNaValidacaoDeSaldo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnviarMensagemTest.verificarComportamentoDaClasse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GeradorDeNumerosTeste.testaGeracaoComTamanhoDefinido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockito-exemplos" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +117,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="me.dio.mockito.exemplos" />
-      <option name="MAIN_CLASS_NAME" value="me.dio.mockito.exemplos.EnviarMensagemTest" />
-      <option name="METHOD_NAME" value="verificarComportamentoDaClasse" />
+      <option name="MAIN_CLASS_NAME" value="me.dio.mockito.exemplos.GeradorDeNumerosTeste" />
+      <option name="METHOD_NAME" value="testaGeracaoComTamanhoDefinido" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GeradorDeNumerosTeste.testaGeracaoComTamanhoDefinido" />
+        <item itemvalue="JUnit.ContaTeste.retornaTrueParaQualquerValorNaValidacaoDeSaldo" />
+        <item itemvalue="JUnit.CadastrarPessoaTeste.lancarExeptionQuandoChamarApiDosCorreios" />
         <item itemvalue="JUnit.ServicoEnvioEmailTeste.validarDadosEnviadosParaAPlataforma" />
         <item itemvalue="JUnit.ContaTeste.validarQuantidadeDeChamadas" />
-        <item itemvalue="JUnit.ContaTeste.validarOrdemDeChamada" />
-        <item itemvalue="JUnit.EnviarMensagemTest.verificarComportamentoDaClasse" />
-        <item itemvalue="JUnit.CadastrarPessoaTeste.validarDadosDeCadastro" />
       </list>
     </recent_temporary>
   </component>
